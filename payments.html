@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payments</title>
+    <!-- Foundation CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="https://imagedelivery.net/Hx1aTvsVNAE_-Y10bvz3BQ/38a1c40f-cb20-4c71-f407-5b8f4d7e0200/public">
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow-x: hidden; /* Prevent horizontal scrollbars */
+        }
+
+        #navBar {
+            flex-shrink: 0; /* Prevent navbar from shrinking */
+        }
+
+        main {
+            flex: 1; /* Fill remaining space */
+            display: flex;
+            flex-direction: column;
+        }
+
+        iframe {
+            flex: 1; /* Fill remaining space */
+            border: none;
+        }
+    </style>
+</head>
+<body>
+ <!-- Header -->
+ <header id="navBar">
+    <div id="navLogo"><img src="https://imagedelivery.net/Hx1aTvsVNAE_-Y10bvz3BQ/38a1c40f-cb20-4c71-f407-5b8f4d7e0200/public" alt="logo" style="max-height: 100px;"></div>
+<!-- Hamburger menu input -->
+<input type="checkbox" id="hamburger-menu" class="hamburger-menu">
+<!-- Hamburger menu icon -->
+<label for="hamburger-menu" class="hamburger-icon">&#9776;</label>
+    <div class="navItems">
+        <li class="navLink"><a href="index.html">Home</a></li>
+        <li class="navLink" id="servicesLink">Services
+            <div class="dropdown-content">
+                <a href="ants.html">Ants</a>
+                <a href="bats.html">Bats</a>
+                <a href="bed_bugs.html">Bed Bugs</a>
+                <a href="birds.html">Birds</a>
+                <a href="box_elder.html">Box Elder Bugs</a>
+                <a href="cockroaches.html">Cockroaches</a>
+                <a href="elm-seed-bugs.html">Elm Seed Bugs</a>
+                <a href="gophers.html">Gophers</a>
+                <a href="mosquitoes.html">Mostquitoes</a>
+                <a href="rodents.html">Rodents</a>
+                <a href="spiders.html">Spiders</a>
+                <a href="termites.html">Termites</a>
+                <a href="wasps_and_hornets.html">Wasps & Hornets</a>
+            </div>
+        </li>
+        <li class="navLink"><a href="payments.html">Payments</a></li>
+        <li class="navLink"><a href="about.html">About Us</a></li>
+    </div>
+</header>
+
+<section id="paymentBody">
+    <div style="display: flex; flex-direction: column; width: 40%; padding: 24px; color: white; text-align: center;">
+        <h3 style="text-shadow: 2px 2px #516055;">Welcome To Our Secure Checkout</h3>
+        <p style="text-shadow: 2px 2px 10px #516055;">Do you have a standing balance for 1ShotPestControl services? Pay your bill confidently with our secure checkout form here!</p>
+    </div>
+    <iframe src="https://square.link/u/ldC45HB6?hide_borders=true" style="height: 65%; width: 80vw; margin: 24px;"></iframe>
+</section>
+
+<footer>
+    <p style="font-size: 1rem; text-align: center;">© 1ShotPestControl 2024</p>
+</footer>
+
+</body>
+</html>
